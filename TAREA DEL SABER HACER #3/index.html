@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+     <link rel="icon" type="image/png" href="imagenes/12.png">
+  <style>
+    * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background: #3d1f1f;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+ 
+    .contenedor {
+      background:  #861010;
+      padding: 7rem;
+      border-radius: 1rem;
+      display: flex;              
+      align-items: center;        
+      gap: 2rem;                  
+    }
+
+
+    .image-container img {
+      width: 450px;
+      height: 700px;
+      object-fit: cover;
+      border-radius: 30%;
+      border: 4px solid #3d0e0e;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: right;
+      flex-direction: column;
+      gap: 2.5rem;
+      margin-left: 5rem;
+    }
+
+    
+    .btn {
+      padding: 1rem;
+      border: none;
+      border-radius: .5rem;
+      background: #d4cece;
+      color: black;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #826094;
+    }
+
+    .cerrar {
+      background: brown;
+    }
+
+    .cerrar:hover {
+      background: rgb(114, 23, 23);
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="contenedor">
+
+   <div class="image-container">
+     <img src="imagenes/hanako.jpg" alt="Perfil">
+    </div>
+
+    <div class="buttons">
+        <h1 class="titulo">Elegir el apartado :D</h1>
+    <button class="btn" onclick="location.href='calculadora.html'">Calculadora</button>
+    <button class="btn" onclick="location.href='cuadrado.html'">Cuadrado</button>
+
+     <div style="display: flex; justify-content: center; gap: 10px; margin-top: -30px;">
+         <img src="imagenes/pipi.png" alt="" height="350" width="500">
+      </div>
+    
+       
+   </div>
+  </div>
+   
+  <script>
+
+  </script>
+
+</body>
+</html>

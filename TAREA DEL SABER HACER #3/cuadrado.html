@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+      <link rel ="stylesheet" href="styles(2).css">
+    
+</head>
+      <link rel="icon" type="image/png" href="imagenes/12.png">
+<body>
+    <form name="form1" action="">
+        <label for="num">Numero:</label>
+        <input type="text" name="num" id="num" placeholder="Ingresa un numero"><br>
+        <br>
+        <label for="resultado">Resultado:</label>
+        <input type="text" name="resultado" id="resultado"><br>
+        <br>
+        <button type="button" onclick="calcularCuadrado()">Calcular Cuadrado</button>
+        <button type="button" class="btn cerrar" onclick="volver()">Cerrar sesión</button>
+    </form>
+
+    <script>
+        function calcularCuadrado() {
+            let numero = document.form1.num.value;
+            let resultado = numero * numero;
+            document.form1.resultado.value = resultado;
+        }
+
+    </script>
+    <script>
+
+     function volver() {
+      window.history.back();
+     }
+
+    </script>
+
+    <img src="imagenes/primero.jpg" alt="Decoración" class="izquierda-imagen">
+    <img src="imagenes/segundo.jpg" alt="Decoración" class="derecha-imagen">
+
+
+
+</body>
+</html>
+
+
+
+
+ 
